@@ -6,34 +6,34 @@
 </head>
 	
 <body style="background-color: #ffffe6;" id="body">
-<button onclick="Wix.Settings.closeWindow({"reason": "button-clicked"});">With reason only</button>
+<button onclick="Wix.Settings.closeWindow({'reason': 'button-clicked'});">With reason only</button>
 <br>
 <br>
-<button onclick="Wix.Settings.closeWindow({"reason": "button-clicked", "target": 'SETTINGS'});">With reason and Settings target</button>
+<button onclick="Wix.Settings.closeWindow({'reason': 'button-clicked', 'target': 'SETTINGS'});">With reason and Settings target</button>
 <br>
 <br>
-<button onclick="Wix.Settings.closeWindow({"reason": "button-clicked", "target": 'MODAL'});">With reason and Modal target</button>
+<button onclick="Wix.Settings.closeWindow({'reason': 'button-clicked', 'target': 'MODAL'});">With reason and Modal target</button>
 <br>
 <br>
-<button onclick="Wix.Settings.closeWindow({"reason": "button-clicked", "target": 'ALL'});">With reason and All target</button>
+<button onclick="Wix.Settings.closeWindow({'reason': 'button-clicked', 'target': 'ALL'});">With reason and All target</button>
 <br>
 <br>
-<button onclick="Wix.Settings.closeWindow({"target": 'SETTINGS'});">With Settings target</button>
+<button onclick="Wix.Settings.closeWindow({'target': 'SETTINGS'});">With Settings target</button>
 <br>
 <br>
-<button onclick="Wix.Settings.closeWindow({"target": 'MODAL'});">With Modal target</button>
+<button onclick="Wix.Settings.closeWindow({'target': 'MODAL'});">With Modal target</button>
 <br>
 <br>
-<button onclick="Wix.Settings.closeWindow({"target": 'ALL'});">With All target</button>
+<button onclick="Wix.Settings.closeWindow({'target': 'ALL'});">With All target</button>
 <br>
 <br>
-<button onclick="Wix.Settings.closeWindow("usual string");">With string in params</button>
+<button onclick="Wix.Settings.closeWindow('usual string');">With string in params</button>
 <br>
 <br>
 <button onclick="Wix.Settings.closeWindow();">Without params</button>
 <br>
 <br>
-<button onclick="Wix.Settings.closeWindow({"target": 'Badabum'});">With incorrect target</button>
+<button onclick="Wix.Settings.closeWindow({'target': 'Badabum'});">With incorrect target</button>
 <br>
 </body>
 </html>
